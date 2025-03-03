@@ -1,8 +1,4 @@
 Los primeros pasos son:
 -El primero paso: es coger el docker-compose.yaml y ponerlo en el ordenador, despues tenemos que crear 2 carpetas 1 con el nombre de dev y otra con el de flask
--Segundo paso:  Ponemos el app.py y el requirements en la carpeta del flask 
-
-
-Para comenzar, hay que descargar los ficheros que tienen (flask), para, más tarde, descargar el de app.py y el de requirements.
-
-Luego, ponerlo todo en una carpeta separada con el comando mkdir flask
+-Segundo paso:  Ponemos el app.py y el requirements en la carpeta del flask y despues de eso hacemos lo mismo pero con la carpeta dev y ponemos el dockerfile y el start y startup.sh para el dev
+-Ultimo paso: Para lo ultimo despues de crear las dos carpetas y poner lo necesario ejecutamos este comando: docker-compose up -d --build 
